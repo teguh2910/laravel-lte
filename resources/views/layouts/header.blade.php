@@ -20,9 +20,7 @@
       <li class="nav-item">
         <marquee class="warna">
         Welcome <b>  {{auth::user()->name}} // 
-        </b> Email <b>  {{auth::user()->email}} </b> //
-        Dept <b> {{auth::user()->dept}} </b> // 
-        NPK <b> {{auth::user()->npk}} </b>
+        </b> Email <b>  {{auth::user()->email}} </b>        
       </marquee>
       </li>      
     </ul>
